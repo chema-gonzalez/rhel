@@ -1,0 +1,13 @@
+[BaseOS]
+name=BaseOS
+baseurl=file:///repo/BaseOS
+pgpcheck=1
+enabled=1
+gpgkey=file:///repo/RPM-GPG-KEY-redhat-release
+
+[AppStream]
+name=AppStream
+baseurl=file:///repo/AppStream
+pgpcheck=1
+enabled=1
+gpgkey=file:///repo/RPM-GPG-KEY-redhat-release
